@@ -33,6 +33,9 @@ SampleLoginTest
     Log               Test completed      
     Log               This test was executed by %{username} on %{os}
     
+AnotherTest
+    Log     just some message
+    
 *** Variables ***
 ${URL}    https://opensource-demo.orangehrmlive.com/
 @{CREDENTIALS}    Admin    admin123
